@@ -7,18 +7,19 @@
 </head>
 <body>
     <?php
-        $contador = 0;
+        
         $suma = 0;
 
-        while ($contador < 50 ) {
-                echo $cuadrado= $contador * $contador;
-                echo "<br>";
-                $suma = $suma + $cuadrado;
-            
-        $contador = $contador + 1;
+        for ($a = 1; $a <=100; $a++ ) {
+            if ($a% 5 == 0){
+                echo $a. "<br>";
+                $suma = $suma+ $a;
+            }
+                
         }
-        echo "<br>";
-        echo "La suma total es ", $suma;
+        
+        echo "La suma total es: ". $suma. "<br>";
+        echo "El cuadrado de dicha suma es: ". $cuadrado = $suma * $suma;
     ?>
 </body>
 </html>
