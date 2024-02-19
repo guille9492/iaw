@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <?php
+        $contador = 0;
+        $suma = 0;
+
+        for ($a = 1; $a <=100; $a++ ) {
+            if ($contador % 5 == 0){
+                echo $contador;
+                //$suma = $suma + $contador;
+            }
+                
+        }
+        
+        //echo "La suma total es ", $suma;
+    ?>
+</body>
+</html>
