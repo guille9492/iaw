@@ -7,18 +7,18 @@
 </head>
 <body>
     <?php
-        $contador = 0;
-        $suma = 0;
+         $suma = 0;
 
         for ($a = 1; $a <=100; $a++ ) {
-            if ($contador % 5 == 0){
-                echo $contador;
-                //$suma = $suma + $contador;
+            if ($a % 5 == 0){
+                echo $a . "<br>";
+                $suma = $suma + $a;
             }
                 
         }
-        
-        //echo "La suma total es ", $suma;
+    
+        echo "La suma total es: ", $suma . "<br>";
+        echo "El cuadrado de la suma es: " . $cuadrado = $suma * $suma;
     ?>
 </body>
 </html>
