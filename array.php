@@ -12,13 +12,14 @@
             "lanzamiento de jabalina","ajedrez"
         );
 
-      //foreach ($deportes as $deportes) {
-        //  echo $deportes . "<br>";
-       // }
+      foreach ($deportes as $deportes) {
+          echo $deportes . "<br>";
+        }
         
-        var_dump($deportes);
-        echo "<br>";
-        echo $deportes [0];
+        //var_dump($deportes);
+    
+        //echo "<br>";
+        //echo $deportes [0];
        
     ?>
    
