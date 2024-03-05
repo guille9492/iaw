@@ -16,7 +16,7 @@
           echo $deportes . "<br>";
         }
         
-        //var_dump($deportes);
+        var_dump($deportes);
     
         //echo "<br>";
         //echo $deportes [0];
