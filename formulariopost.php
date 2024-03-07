@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
    
     <?php
-        $alumno= $_POST['alumno'];
-        $clase = $_POST['clase'];
-        echo "El alumno es: " . $alumno;
+        $pan = $_POST['pan'];
+        $conocer = $_POST['conocer'];
+        echo "El pan del pedido es : " . $pan;
         echo "<br>";
-        echo "La clase es: " . $clase;
+        echo "Nos ha conocido mediante: " . $conocer;
     ?>
 </body>
 </html>

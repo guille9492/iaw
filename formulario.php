@@ -8,11 +8,11 @@
 <body>
    
     <?php
-        $usuario = $_GET['usuario'];
-        $departamento = $_GET['departamento'];
-        echo "El usuario es: " . $usuario;
+        $pan = $_GET['pan'];
+        $conocer = $_GET['conocer'];
+        echo "El pan del pedido es : " . $pan;
         echo "<br>";
-        echo "El departamento es: " . $departamento;
+        echo "Nos ha conocido mediante: " . $conocer;
     ?>
 </body>
 </html>
