@@ -14,10 +14,12 @@
         echo "<br>";
         echo "Nos ha conocido mediante: " . $conocer;
         echo "<br>";
-        
+
         if ( $_GET['pan'] == $pan and $_GET['conocer'] == $conocer ) {
             echo "Pedido enviado correctamente. Gracias!";
         }
+
+        //para insertar estos datos en otra página hacemos "include 'nombrepagina.php'"
     ?>
 </body>
 </html>
